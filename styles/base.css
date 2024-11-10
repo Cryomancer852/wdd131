@@ -65,14 +65,14 @@ nav a:hover {
 main{
     width:90%;
     margin-left: 5%;
-    background:yellow;
+    /* background:yellow; */
     grid-row:2/4;
     grid-column: 1/4;
     display:grid;
     grid-template-columns: 2fr 1fr;
 }
 .Main{
-    background:purple;
+    background:rgb(122, 197, 126);
     grid-column:1/1;
     font-size: 24px;
     text-indent: 5%;
@@ -81,7 +81,7 @@ main{
 
 
 .Side{
-    background:red;
+    background:rgb(85, 139, 88);
     grid-column:2/3;
     font-size: 16px;
     text-indent: 5%;
@@ -90,7 +90,7 @@ main{
 }
 
 .Footer{
-    background:blue;
+    background:lightgreen;
     grid-column: 1/4;
     grid-row:3/4;
     text-indent: 5%;
