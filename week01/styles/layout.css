@@ -14,7 +14,6 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 5fr 1fr;
-    place-items:left;
 }
 
 
@@ -39,7 +38,7 @@ body{
     background:purple;
     grid-column:1/3;
     grid-row:2/3;
-    font-size: 24;
+    font-size: 24px;
     text-indent: 5%;
 }
 
@@ -48,7 +47,7 @@ body{
     background:red;
     grid-column:3/4;
     grid-row:2/3;
-    font-size: 16;
+    font-size: 16px;
     text-indent: 5%;
 
 }
@@ -58,4 +57,7 @@ body{
     grid-column: 1/4;
     grid-row:3/4;
     text-indent: 5%;
+}
+img{
+    margin:0 auto;
 }
